@@ -1,42 +1,28 @@
-# homework-cookbook
+Overview
+========
 
-TODO: Enter the cookbook description here.
+Every Chef installation needs a Chef Repository. This is the place where cookbooks, roles, config files and other artifacts for managing systems with Chef will live. We strongly recommend storing this repository in a version control system such as Git and treat it like source code.
 
-## Supported Platforms
+While we prefer Git, and make this repository available via GitHub, you are welcome to download a tar or zip archive and use your favorite version control system to manage the code.
 
-TODO: List your supported platforms.
+Repository Directories
+======================
 
-## Attributes
+This repository contains several directories, and each directory contains a README file that describes what it is for in greater detail, and how to use it for managing your systems with Chef.
 
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['homework']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+* `cookbooks/` - Cookbooks you download or create.
+* `data_bags/` - Store data bags and items in .json in the repository.
+* `roles/` - Store roles in .rb or .json in the repository.
+* `environments/` - Store environments in .rb or .json in the repository.
 
-## Usage
+Configuration
+=============
 
-### homework::default
+The config file, `.chef/knife.rb` is a repository specific configuration file for knife. If you're using the Chef Platform, you can download one for your organization from the management console. If you're using the Open Source Chef Server, you can generate a new one with `knife configure`. For more information about configuring Knife, see the Knife documentation.
 
-Include `homework` in your node's `run_list`:
+http://docs.chef.io/knife.html
 
-```json
-{
-  "run_list": [
-    "recipe[homework::default]"
-  ]
-}
-```
+Next Steps
+==========
 
-## License and Authors
-
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Read the README file in each of the subdirectories for more information about what goes in those directories.

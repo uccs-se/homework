@@ -1,7 +1,19 @@
 name             'homework'
+version          '0.1.0'
 maintainer       'Renlor'
 maintainer_email 'jvandebr@uccs.edu'
-license          MIT
-description      'Sets up homework.'
-long_description 'Adds the Software Engineering homework and project files to a vm.'
-version          '0.1.0'
+description      'Sets up the software engineering homework.'
+issues_url       'https://github.com/uccs-se/homework/issues'
+source_url       'https://github.com/uccs-se/homework'
+license          'MIT'
+provides         'workstation::default'
+supports         'ubuntu'
+
+long_description <<-EOH
+= DESCRIPTION:
+
+= REQUIREMENTS:
+
+= ATTRIBUTES:
+
+EOH
