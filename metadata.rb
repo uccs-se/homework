@@ -1,0 +1,7 @@
+name             'homework'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures homework'
+long_description 'Installs/Configures homework'
+version          '0.1.0'
