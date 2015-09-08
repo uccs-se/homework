@@ -1,8 +1,5 @@
-#
-# Cookbook Name:: homework
-# Recipe:: default
-#
-# Copyright (C) 2015 YOUR_NAME
-#
-# All rights reserved - Do Not Redistribute
-#
+include_recipe 'homework::1'
+include_recipe 'homework::2'
+include_recipe 'homework::3'
+include_recipe 'homework::4'
+include_recipe 'homework::5'
