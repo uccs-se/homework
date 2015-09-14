@@ -190,7 +190,7 @@ match per round).
 HINT: Formulate the problem as a recursive one whose base case you
 solved in part 1.
 
-## 4. Ruby metaprogramming
+## 3. Ruby metaprogramming
 
 Specs:  `spec/attr_accessor_with_history_spec.rb`
 
