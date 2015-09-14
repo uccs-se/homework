@@ -19,7 +19,7 @@ end
 
 
 remote_directory '/home/ensign/assignments/hw1/spec' do
-  source      'spec'
+  source      'hw1/spec'
   recursive   true
   owner       'ensign'
   group       'ensign'
