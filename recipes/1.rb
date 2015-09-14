@@ -16,5 +16,5 @@ remote_directory '/home/ensign/assignments/hw1' do
   files_mode  00755
   action      :create
   overwrite   false
-  ignore_failures true
+  ignore_failure true
 end
