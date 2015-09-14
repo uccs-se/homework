@@ -43,7 +43,7 @@ tests for all parts to pass green.
 (Note: when you submit your assignment, we may also run additional
 test cases beyond the ones given here.)
 
-# Fun With Words and Strings
+# Part 1: Fun With Words and Strings
 --- fun_with_strings
 
 Specs: `spec/fun_with_strings_spec.rb`
@@ -190,7 +190,7 @@ match per round).
 HINT: Formulate the problem as a recursive one whose base case you
 solved in part 1.
 
-## 3. Ruby metaprogramming
+# Part 4: Ruby metaprogramming
 
 Specs:  `spec/attr_accessor_with_history_spec.rb`
 
