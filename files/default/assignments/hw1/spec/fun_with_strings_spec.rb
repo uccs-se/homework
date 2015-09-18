@@ -42,7 +42,7 @@ describe 'anagram grouping', :pending => true do
     it 'should work on the empty string' do
       expect(''.anagram_groups).to eq([])
     end
-    it 'should return an array of arrays for nonempty string' do
+    it 'should return an array of arrays for nonempty string' do \
       'x'.anagram_groups.each { |element| expect(element).to be_an Array }
     end
   end

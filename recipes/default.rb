@@ -1,5 +1,13 @@
-include_recipe 'homework::1'
-include_recipe 'homework::2'
-include_recipe 'homework::3'
-include_recipe 'homework::4'
-include_recipe 'homework::5'
+
+remote_directory '/home/ensign/assignments' do
+  source      'assignments'
+  recursive   true
+  owner       'ensign'
+  group       'ensign'
+  mode        00755
+  files_owner 'ensign'
+  files_group 'ensign'
+  files_mode  00755
+  action      :create
+  overwrite   false
+end
