@@ -1,13 +1,14 @@
-
-remote_directory '/home/ensign/assignments' do
-  source      'assignments'
-  recursive   true
-  owner       'ensign'
-  group       'ensign'
-  mode        00755
-  files_owner 'ensign'
-  files_group 'ensign'
-  files_mode  00755
-  action      :create
-  overwrite   false
+directory '/home/ensign/assignments' do
+  owner 'ensign'
+  group 'ensign'
+  mode   00750
+  recursive true
+  action :create
 end
+
+#include_recipe 'workstation::hw0'
+#include_recipe 'workstation::hw1'
+include_recipe 'workstation::hw2'
+#include_recipe 'workstation::hw3'
+#include_recipe 'workstation::hw4'
+#include_recipe 'workstation::hw5'

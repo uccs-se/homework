@@ -1,5 +1,5 @@
 name             'homework'
-version          '0.2.5'
+version          '0.2.6'
 maintainer       'Renlor'
 maintainer_email 'jvandebr@uccs.edu'
 description      'Sets up the software engineering homework.'
