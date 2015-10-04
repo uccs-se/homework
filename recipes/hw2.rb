@@ -12,5 +12,6 @@ git 'hw2' do
 end
 
 directory "#{node['hw2']['git']['destination']}/.git" do
+  recursive true
   action :delete
 end
