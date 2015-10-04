@@ -6,9 +6,9 @@ directory '/home/ensign/assignments' do
   action :create
 end
 
-#include_recipe 'workstation::hw0'
-#include_recipe 'workstation::hw1'
-include_recipe 'workstation::hw2'
-#include_recipe 'workstation::hw3'
-#include_recipe 'workstation::hw4'
-#include_recipe 'workstation::hw5'
+#include_recipe 'homework::hw0'
+#include_recipe 'homework::hw1'
+include_recipe 'homework::hw2'
+#include_recipe 'homework::hw3'
+#include_recipe 'homework::hw4'
+#include_recipe 'homework::hw5'
