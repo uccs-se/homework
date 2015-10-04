@@ -10,3 +10,7 @@ git 'hw2' do
   user node['user']
   action :checkout
 end
+
+directory "#{node['hw2']['git']['destination']}/.git" do
+  action :delete
+end
