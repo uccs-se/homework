@@ -10,3 +10,8 @@ git 'hw0' do
   user node['user']
   action :checkout
 end
+
+directory "#{node['hw0']['git']['destination']}/.git" do
+  recursive true
+  action :delete
+end
