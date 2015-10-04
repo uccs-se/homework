@@ -9,6 +9,8 @@ license          'MIT'
 provides         'workstation::default'
 supports         'ubuntu'
 
+depends 'git'
+
 long_description <<-EOH
 = DESCRIPTION:
 
